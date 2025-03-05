@@ -30,7 +30,7 @@ if torch.cuda.device_count() > 1:
     print(f"Using {torch.cuda.device_count()} GPUs")
 
 # Configuration
-SUBJECT_ID = 3
+SUBJECT_ID = 8
 ROIS = ['V3v', 'FBA-2']  # V3d from early retinotopic visual regions, OPA from place-selective regions
 VERTICES_PER_ROI = 10
 TEST_SIZE = 0.2
